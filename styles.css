@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    
+}
+
+.eventWrapper{
+    display: flex;
+    height:1100vh;
+    flex-direction: column; /*row*/
+}
+
+.ehead{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    transform: rotate(0deg);
+}
+
+.bgcolor{
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+    height: 100vh;
+    width: 60vw;
+    background-image: url(https://drive.google.com/uc?export=view&id=1mCW5YlTWnr4j-tz4hol04JC1tfUYDth-);
+    background-position: center;
+    background-size: cover;
+    Z-index: 60;
+    transition: all 1s ease-out;
+}
+
+
+.Event{
+    z-index: 60;
+    background-color: rgba(39, 49, 84, 0.85);
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+    z-index: 100;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap:4.2rem;
+    width: 60vw;
+    color: black;
+    transition: all 1s ease-out;
+    /* animation: ani 1s ease-out ; */
+    /* background-color:   #273154; */
+    /* padding: 30px; */
+}
+@keyframes ani-0 {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+@keyframes ani-1 {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
+.Event h1{
+    font-size: 40px;
+}
+
+.Icon{
+    z-index: 50;
+    /* position: absolute; */
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 64vw;
+    background-color: #202455;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-out;
+
+}
+
+ h1{
+    transform: rotate(270deg);
+    /* padding-top: 50%; */
+}
+
+
+
+.Dcode{height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 68vw;
+    z-index: 45;
+    background-color: #292f6f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-out;
+
+}
+.Drift_racing{
+    height: 100vh;
+    width: 72vw;
+    top: 0;
+    left: 0;
+    z-index: 40;
+    position: absolute;
+    background-color: #2d3379;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-out;
+
+}
+.Cryto_rush{
+    z-index: 35;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 76vw;
+    background-color: #3d45a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-out;
+
+}
+.Game_jam{
+    height: 100vh;
+    position: absolute;
+    z-index: 30;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    background-color: #4952bb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-out;
+
+}
+.XXX{
+    height: 100vh;
+    z-index: 25;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 84vw;
+    background-color: #636bc5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-out;
+
+}
+.YYY{
+    z-index: 20;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 88vw;
+    background-color: #7d83ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-out;
+
+}
+.ZZZ{
+    z-index: 15;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 92vw;
+    background-color: #979cd8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-out;
+
+}
+.Electronica{
+    z-index: 10;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 96vw;
+    background-color: #b1b5e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-out;
+
+}
+
+.Brain_wiz{
+    height: 100vh;
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #cbceec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-out;
+
+}
+
+.p_wrapper{
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #515a776f;
+    padding: 50px;
+    display: flex;
+    border-radius: 10px;
+    width: 60%;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 1.9rem;
+    text-align: center;
+    
+}
+
+.blank1{
+    height: 100vh;
+    width: 0vw;
+    background-color: red;
+}
+
+.blank2{
+    height: inherit;
+    width: 4vw;
+}
+
+.blank3{
+    height: inherit;
+    width: 8vw;
+}
+
+.blank4{
+    height: inherit;
+    width: 12vw;
+}
+
+.blank5{
+    height: inherit;
+    width: 16vw;
+}
+
+.blank6{
+    height: inherit;
+    width: 20vw;
+}
+
+.blank7{
+    height: inherit;
+    width: 24vw;
+}
+
+.blank8{
+    height: inherit;
+    width: 28vw;
+}
+
+.blank9{
+    height: inherit;
+    width: 32vw;
+}
+
+.blank10{
+    height: inherit;
+    width: 36vw;
+}
+
+
+.title{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4vw;
+    
+}
+
+.info{
+    height: 100vh;
+    width: 60vw;
+    display: flex;
+    flex-direction:column;
+    background-color: white;
+}
+
+.info1{
+    background-color: #9ba4b4;
+}
+
+/* Add info1 back color for all events */
+
+.info_head1{
+    /* background-color: orangered; */
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #9ba4b4;
+}
+
+
+.one img{
+
+    width: 25vw;
+}
+
+.info_content1{
+  border: 10px soild black;
+}
+
+.imgcon{
+  height: 50px;
+  width: auto;
+}
+
+.prizeIcon{
+height: 40px;
+margin-right: 7px;
+}
+
+.prizeDate{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h2InPrize{
+    font-weight: 700;
+    font-size: 4.5vh;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.eventType{
+    height: 17vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_content1{
+    /* background-color: #9ba4b4; */
+    border: 0.3vh solid black;
+    margin: 3vh;
+    padding: 2vh;
+}
+
+.contus{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.head_buttons1{
+    display: flex;
+    flex-direction: column;
+}
+
+.img_title1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.contactUs li{
+    list-style: none;
+}
+
+.head_buttons1 button{
+    background-color: #9ba4b4;
+    margin: 1vh;
+    height: 7vh;
+    border-radius: 1vh;
+    width: 12vw; 
+    font-size: 3.5vh;
+    font-weight: 100;
+    border: 0.1rem solid black;
+}
+
+.head_buttons1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.img_title1 img{
+    margin-top: 3vh;
+    height: 30vh;
+}
